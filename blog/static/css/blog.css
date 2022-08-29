@@ -1,0 +1,47 @@
+.sidebar {
+    float: right;
+    padding: 50px;
+    padding-right: 100px;
+    background-color: rgb(208, 208, 208);
+}
+
+.content {
+    float: left;
+    margin: 30px;
+    width: 50%;
+}
+
+.title {
+    margin-bottom: 50px;
+}
+
+.post-title {
+    margin-top: 25px;
+}
+
+/* Comment-Style starts here */
+
+.comment_body {
+    background-color: rgb(155, 148, 148);
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.comment_body p {
+    margin-bottom: 0;
+}
+
+.info {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.info p {
+    margin-bottom: 0px;
+}
+
+.pagination-style {
+    position: fixed;
+    bottom: 10px;
+}
