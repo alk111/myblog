@@ -29,6 +29,7 @@ def post_detail(request, year, month, day, post):
     comments = post.comments.filter(active=True)
 
     new_comment = None
+    HELLO=NONE
 
     if request.method == 'POST':
         # A comment was posted
